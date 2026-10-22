@@ -1,0 +1,29 @@
+{
+  "shape": [
+    16,
+    32,
+    16
+  ],
+  "axes": [
+    "channel",
+    "inline",
+    "time",
+    "crossline"
+  ],
+  "blur_sigma": [
+    0.6,
+    2.0,
+    0.6
+  ],
+  "scale": 2,
+  "volumes": [
+    {
+      "file": "simulated_000.npz",
+      "seed": 20000
+    },
+    {
+      "file": "simulated_001.npz",
+      "seed": 20002
+    }
+  ]
+}

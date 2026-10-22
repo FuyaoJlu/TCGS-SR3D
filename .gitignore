@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runs/
+*.pt
+!checkpoints/tcgs_sr3d_epoch145.pt
+*.pth
+*.ckpt
+data/local*/
+.DS_Store
