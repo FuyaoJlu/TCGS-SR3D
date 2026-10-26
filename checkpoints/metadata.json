@@ -1,0 +1,22 @@
+{
+  "checkpoint": "checkpoints/tcgs_sr3d_epoch145.pt",
+  "epoch": 145,
+  "parameter_count": 80763573,
+  "stored_dtype": "bfloat16",
+  "inference_dtype": "float32",
+  "state_dict_tensors": 277,
+  "release_sha256": "75a9e56e9bf2c5771b4d9ebfab03fc1d067aa60e0bcdf66dc68c15f791da7646",
+  "tensor_values_preserved": true,
+  "strict_model_load": true,
+  "normalization": "Input mean and sample standard deviation; output restored to input amplitude units",
+  "model_config": {
+    "scale": 2,
+    "hidden_channels": 224,
+    "feature_channels": 112,
+    "num_blocks": 28,
+    "hr_blocks": 4,
+    "levels": "tri",
+    "mid_radius": 2,
+    "coarse_radius": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {"scale": 2, "hidden_channels": 224, "feature_channels": 112, "num_blocks": 28, "hr_blocks": 4, "levels": "tri", "gradient_checkpointing": true, "mid_radius": 2, "coarse_radius": 2},
+  "shape": [64, 64, 64], "seed": 42, "threads": 2,
+  "epochs": 180, "samples_per_epoch": 1024, "batch_size": 1,
+  "lr": 0.00008, "warmup_epochs": 8, "event_ramp_epochs": 30
+}
